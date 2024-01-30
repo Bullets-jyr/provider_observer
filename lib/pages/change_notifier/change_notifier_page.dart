@@ -14,7 +14,7 @@ class CounterChangeNotifier extends ChangeNotifier {
 }
 
 final counterChangeNotifierProvider =
-    ChangeNotifierProvider<CounterChangeNotifier>((ref) {
+ChangeNotifierProvider<CounterChangeNotifier>((ref) {
   return CounterChangeNotifier();
 });
 

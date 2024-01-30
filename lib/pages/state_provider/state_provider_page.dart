@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final counterStateProvider = StateProvider<int>(
-  (ref) {
+      (ref) {
     return 0;
   },
   name: 'couterStateProvider',
