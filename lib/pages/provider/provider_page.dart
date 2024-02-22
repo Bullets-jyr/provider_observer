@@ -5,6 +5,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'provider_page.g.dart';
 
 @Riverpod(keepAlive: true)
+// @riverpod
 int counter(CounterRef ref) {
   return 0;
 }

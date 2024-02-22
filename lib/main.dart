@@ -15,6 +15,7 @@ import 'pages/stream_provider/stream_provider_page.dart';
 void main() {
   runApp(
     ProviderScope(
+      // ProviderObserver 등록
       observers: [Logger()],
       child: const MyApp(),
     ),
